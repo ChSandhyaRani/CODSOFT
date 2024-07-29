@@ -1,0 +1,180 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(
+      to right,
+      rgba(2, 82, 89, 0.9),
+      rgba(255, 255, 255, 0)
+    ),
+    url("https://image.slidesdocs.com/responsive-images/background/visualizing-programming-and-coding-in-3d-illustration-powerpoint-background_df5b58148a__960_540.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 2000px;
+    min-height: 10vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.logo img {
+    max-width: 50px;
+}
+  
+.links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.link a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.link a:hover{
+    color: rgb(71, 223, 250);
+}
+
+.search {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+.search input {
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+    outline: none;
+    border: none;
+}
+.search input::placeholder {
+    color: gray;
+}
+
+
+.login {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    background-color: green;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login:hover {
+    background-color: rgb(87, 241, 87);
+    color: black;
+}
+
+.line{
+    border-left: 3px solid white;
+    height: 300px;
+    margin-top: 40px;
+    position: relative;
+    padding: 5rem 0 5rem 5rem;
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.content h1 {
+    margin-bottom: 2rem;
+    margin-left: 0.2rem;
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+}
+.content h1 span {
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+  }
+.content p {
+    max-width: 350px;
+    margin-left: 0.2rem;
+    line-height: 1.2rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content .btn {
+    padding: 0.75rem 1rem;
+    margin-left: 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    background-color: pink;
+    cursor: pointer;
+}
+.content .btn:hover{
+    background-color: rgb(232, 110, 175);
+}
+  
+.con2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.card{
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+}
+.card img {
+    width: 130px;
+}
+.description {
+    padding: 1rem;
+}
+.description h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: deeppink;
+}
+.description p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: gray;
+}
+.description .btn {
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-weight: 500;
+    color: black;
+    background-color: rgb(104, 235, 104);
+    cursor: pointer;
+}
+.description .btn:hover{
+    background-color: rgb(255, 61, 61);
+}
+
